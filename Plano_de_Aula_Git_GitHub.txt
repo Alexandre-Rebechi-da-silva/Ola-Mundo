@@ -1,0 +1,121 @@
+
+PLANO DE AULA - GIT E GITHUB
+
+OBJETIVO:
+Compreender os conceitos fundamentais do Git e GitHub, suas diferenças, comandos principais e boas práticas de versionamento de código.
+
+-------------------------------------------
+1. CONCEITOS BÁSICOS
+-------------------------------------------
+GIT:
+- Sistema de controle de versionamento local.
+- Permite criar, acompanhar e gerenciar o histórico de versões de um projeto.
+- Trabalha em repositórios locais.
+
+GITHUB:
+- Plataforma online (repositório remoto) para hospedar projetos Git.
+- Oferece ferramentas de colaboração, socialização e controle de versões.
+- Possibilita forks, pull requests, issues e visualização de projetos públicos.
+
+Diferença principal:
+- Git: controle de versões local.
+- GitHub: armazenamento remoto + colaboração.
+
+-------------------------------------------
+2. VANTAGENS DO GIT
+-------------------------------------------
+- Controle de histórico.
+- Trabalho em equipe.
+- Ramificação (branching).
+- Segurança.
+- Organização.
+
+-------------------------------------------
+3. VANTAGENS DO GITHUB
+-------------------------------------------
+- Hospedagem de código-fonte.
+- Recursos sociais (seguir, curtir, colaborar).
+- Forks e pull requests.
+- Issues (relato e acompanhamento de problemas).
+- Repositórios ilimitados (limite em privados).
+
+-------------------------------------------
+4. CONFIGURAÇÃO INICIAL
+-------------------------------------------
+Programas necessários:
+- Git
+- VS Code
+- GitHub Desktop
+
+Criando conta no GitHub:
+1. Inserir nome profissional, email e senha.
+2. Escolher plano (gratuito é suficiente).
+3. Selecionar perfil (professor/aluno).
+4. Completar bio, localidade e site no perfil.
+
+-------------------------------------------
+5. COMANDOS BÁSICOS DO GIT
+-------------------------------------------
+git init                 -> Inicializa o repositório local.
+git status               -> Mostra o status atual dos arquivos.
+git add .                -> Adiciona todos os arquivos para commit.
+git commit -m "mensagem" -> Cria um ponto de verificação (commit).
+git branch -M main       -> Define a branch principal como 'main'.
+git remote add origin URL -> Conecta ao repositório remoto.
+git push -u origin main  -> Envia os commits para o GitHub.
+git pull origin main     -> Atualiza o repositório local.
+git log                  -> Exibe histórico de commits.
+git clone URL            -> Clona um repositório remoto.
+git checkout -b nome     -> Cria nova branch.
+git checkout main        -> Retorna para a branch principal.
+git merge nome-da-branch -> Junta as alterações de outra branch.
+clear                    -> Limpa o terminal.
+
+-------------------------------------------
+6. COMANDOS NO GITHUB DESKTOP
+-------------------------------------------
+Ctrl + N           -> Novo repositório.
+Ctrl + Shift + A   -> Abrir no VS Code.
+Ctrl + Enter       -> Confirmar commit.
+Ctrl + P           -> Fazer push para o GitHub.
+
+-------------------------------------------
+7. CONCEITOS IMPORTANTES
+-------------------------------------------
+- Commit: salva as alterações localmente.
+- Push: envia as alterações para o repositório remoto.
+- Pull: atualiza o projeto local com as mudanças remotas.
+- Branch: cria uma nova linha de desenvolvimento.
+- Merge: une as alterações de uma branch ao ramo principal.
+- Fork: cópia de um projeto de outro usuário.
+- Issues: espaço para reportar erros, dúvidas ou sugestões.
+
+-------------------------------------------
+8. MARKDOWN (README e Issues)
+-------------------------------------------
+**negrito** ou __negrito__
+*itálico* ou _itálico_
+# Título nível 1
+## Título nível 2
+### Título nível 3
+--- cria linha horizontal
+1. Lista numerada
+* Lista demarcada
+   * Subitem
+@nome -> marca pessoas
+:emoji: -> inserir emojis (ver "emoji-cheat-sheet" no GitHub).
+
+-------------------------------------------
+9. DICAS GERAIS
+-------------------------------------------
+- Nunca trabalhe diretamente na branch main.
+- Faça commits com mensagens claras.
+- Mantenha o repositório atualizado com 'git pull' antes de fazer push.
+- Utilize branches para novas funcionalidades.
+- Documente o projeto com README.md.
+- Use issues para discutir melhorias e bugs.
+- Sempre revise o código antes de dar merge.
+
+-------------------------------------------
+FIM DO PLANO DE AULA
+-------------------------------------------
